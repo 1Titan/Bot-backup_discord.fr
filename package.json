@@ -1,0 +1,21 @@
+{
+  "name": "backup-bot",
+  "version": "2.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "btoa": "*",
+    "discord.js": "github:discordjs/discord.js",
+    "dotenv": "*",
+    "express": "*",
+    "mongodb": "*",
+    "ejs": "*",
+    "node-fetch": "*"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT"
+}
